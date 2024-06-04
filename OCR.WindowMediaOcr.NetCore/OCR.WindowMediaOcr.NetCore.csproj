@@ -1,0 +1,27 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0-windows10.0.17763.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <StartupObject>OCR.WindowMediaOcr.NetCore.Program</StartupObject>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="imagetwo.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="imagetwo.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+<ItemGroup>
+		<PackageReference Include="Microsoft.Windows.CsWinRT" />
+		<PackageReference Include="System.ComponentModel.Composition" />
+		<PackageReference Include="System.Drawing.Common" Version="8.0.6" />
+		<PackageReference Include="System.Windows.Extensions" Version="8.0.0" />
+		<PackageReference Include="WPF-UI" />
+	</ItemGroup>	 																																																
+</Project>

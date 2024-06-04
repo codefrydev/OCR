@@ -3,12 +3,53 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OCR.GoogleLens.NetCore", "OCR.GoogleLens.NetCore\OCR.GoogleLens.NetCore.csproj", "{C0407C4A-41F7-4BCE-AFEC-2209D1E2F252}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OCR.GoogleLens.NetFramework", "OCR.GoogleLens.NetFramework\OCR.GoogleLens.NetFramework.csproj", "{81C80371-68F7-44F1-AA0A-A524F4C10ECA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OCR.Tesseract.NetCore", "OCR.Tesseract.NetCore\OCR.Tesseract.NetCore.csproj", "{BA085910-39FD-4CDA-9BA7-637C3536D3A0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OCR.Tesseract.NetFramework", "OCR.Tesseract.NetFramework\OCR.Tesseract.NetFramework.csproj", "{64A0E3CC-B465-4A26-8A0C-8DC0E30D48FC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OCR.WindowMediaOcr.NetCore", "OCR.WindowMediaOcr.NetCore\OCR.WindowMediaOcr.NetCore.csproj", "{30CB0402-D8BB-4C8F-8068-86E589CE9CEF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OCR.WindowMediaOcr.Library", "OCR.WindowMediaOcr.Library\OCR.WindowMediaOcr.Library.csproj", "{3E80CF9D-8A1B-4016-A916-1703A6D4A8B4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C0407C4A-41F7-4BCE-AFEC-2209D1E2F252}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C0407C4A-41F7-4BCE-AFEC-2209D1E2F252}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C0407C4A-41F7-4BCE-AFEC-2209D1E2F252}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C0407C4A-41F7-4BCE-AFEC-2209D1E2F252}.Release|Any CPU.Build.0 = Release|Any CPU
+		{81C80371-68F7-44F1-AA0A-A524F4C10ECA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{81C80371-68F7-44F1-AA0A-A524F4C10ECA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{81C80371-68F7-44F1-AA0A-A524F4C10ECA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{81C80371-68F7-44F1-AA0A-A524F4C10ECA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BA085910-39FD-4CDA-9BA7-637C3536D3A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA085910-39FD-4CDA-9BA7-637C3536D3A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA085910-39FD-4CDA-9BA7-637C3536D3A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA085910-39FD-4CDA-9BA7-637C3536D3A0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{64A0E3CC-B465-4A26-8A0C-8DC0E30D48FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{64A0E3CC-B465-4A26-8A0C-8DC0E30D48FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{64A0E3CC-B465-4A26-8A0C-8DC0E30D48FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{64A0E3CC-B465-4A26-8A0C-8DC0E30D48FC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{30CB0402-D8BB-4C8F-8068-86E589CE9CEF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{30CB0402-D8BB-4C8F-8068-86E589CE9CEF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{30CB0402-D8BB-4C8F-8068-86E589CE9CEF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{30CB0402-D8BB-4C8F-8068-86E589CE9CEF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3E80CF9D-8A1B-4016-A916-1703A6D4A8B4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3E80CF9D-8A1B-4016-A916-1703A6D4A8B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3E80CF9D-8A1B-4016-A916-1703A6D4A8B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3E80CF9D-8A1B-4016-A916-1703A6D4A8B4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8C4358B7-BE87-437D-84BC-05BB02FC1274}
 	EndGlobalSection
 EndGlobal
